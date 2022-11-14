@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  flex-basis: 550px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Navbar */
+
+.nav-bar {
+  background: #21222A;
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+
+.nav-bar__icon {
+  height: 2rem;
+}
+
+.nav-bar__logo {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: #61DAFB;
+  margin-left: .5em;
+  margin-right: auto;
+}
+
+.nav-bar__title {
+  font-weight: 600;
+  color: #DEEBF8;
+}
+
+/* MainComponent */
+
+.main-component {
+  background-color: #282D35;
+  color: #fff;
+  padding: 2em;
+  height: 350px;
+  background-image: url(./assets/react.svg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 141%;
+}
+
+.main-component__title {
+  font-size: 2.375rem;
+  font-weight: 700;
+}
+
+.main-component__list {
+  line-height: 2.125rem;
+}
+
+.main-component__list > li::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
+}
